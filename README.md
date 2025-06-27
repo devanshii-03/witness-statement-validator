@@ -120,9 +120,12 @@ This will launch the Tkinter GUI. Enter a witness statement and click "Validate 
 ```
 witness-statement-validator/
 │
-├── main.py             # Main application with GUI logic and NLP processing
-├── README.md          # Project description (this file)
-└── testcases.txt         # Sample test cases
+├── main.py                 # Main application with GUI
+├── README.md              # Project description and usage
+│
+└── assets/                # All visual and sample assets
+    ├── highly-sus.png     # Sample output image (suspicious statement)
+    └── test cases.txt     # Sample input statements for testing
 ```
 
 ## ✨ Future Roadmap
